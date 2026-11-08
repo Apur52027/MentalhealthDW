@@ -1,0 +1,50 @@
+.env
+*.db
+models/*.joblib
+models/metrics.json
+__pycache__/
+.streamlit/secrets.toml
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log Files
+*.log
+
+# Temporary Files
+*.tmp
+*.bak
+
+# Test and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build Files
+build/
+dist/
+*.egg-info/
